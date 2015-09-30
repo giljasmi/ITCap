@@ -6,6 +6,10 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <script src="https://cdn.webrtc-experiment.com/RecordRTC.js"></script>
+    <script src="https://cdn.webrtc-experiment.com/getScreenId.js"></script>
+    <script src="https://cdn.rawgit.com/webrtc/adapter/master/adapter.js"></script>
+    <script type="text/javascript" async="" src="//webrtcexperiment.disqus.com/embed.js"></script>
 
 </head>
 <body>
@@ -36,7 +40,12 @@
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
-
+    <script src="https://cdn.webrtc-experiment.com/commits.js" async=""></script>
+    <script src="https://api.github.com/repos/muaz-khan/WebRTC-Experiment?callback=callback00" async=""></script>
+    <script src="//cdn.webrtc-experiment.com/common.js" async=""></script>
+    <script src="https://api.github.com/repos/muaz-khan/WebRTC-Experiment?callback=callback00" async=""></script>
+    <script src="https://api.github.com/repos/muaz-khan/RecordRTC/commits?sha=master&amp;callback=commitsCallback" async=""></script>
+    <script src="https://api.github.com/users/muaz-khan?callback=callback00" async=""></script>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

@@ -5,7 +5,6 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -39,8 +38,23 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
     display: none;
 }
-#splash{
-    height:100vh;
-    background-image:url(../../Images/main.jpg);
-    background-size:cover;
+
+#splash {
+    height: 100vh;
+    background-image: url(../../Images/main.jpg);
+    background-size: cover;
+}
+#video-sg {
+    margin-left: 18%;
+    height: 540px;
+    width: 720px;
+    background-color: #808080;
+}
+
+.recording-media {
+    display: none;
+}
+
+.media-container-format {
+    display: none;
 }
